@@ -8,6 +8,90 @@
 	<link rel="shortcut icon" type="image/x-icon" href="https://ihackfx.github.io/favicon.ico">
 </head>
 <body>
-	<h1>Hello world!</h1>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-bottom">
+  		<div class="container">
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    			<a class="wow fadeInDown navbar-brand" href="#"><i class="fas fa-terminal">iHackFX</i></a>
+    		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      			<li class="animate hinge nav-item active">
+        			<a class="nav-link" href="index.html">Домой<span class="sr-only">(current)</span></a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="/about/">О сайте</a>
+      			</li>
+      			<li class="nav-item disabled">
+        			<a class="nav-link" href="#">Пусто</a>
+      			</li>
+    		</ul>
+    		<form class="form-inline my-2 my-lg-0">
+      			<input class="wow slideInLeft form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+      			<button class="wow slideInLeft btn btn-info my-2 my-sm-0" data-wow-delay="7s" type="submit">Найти</button>
+    		</form>
+  		</div>
+  		</div>
+	</nav>
+    
+    <div id="headerwrap">		
+	    <div class="container">
+	    	<div class="row centered">
+	    		<div class="col-lg-12 col-lg-offset-1">
+	    			<h1 class="wow zoomIn" data-wow-delay="2s">Практика</h1>
+					<h3 class="wow jackInTheBox" data-wow-delay="4s">постройки сайта на BootStrap 4</h3>
+	    		</div>
+	    	</div>
+	    </div>
+    </div>
+    
+    <div class="container">
+    	<div class="row centered">
+    		<div class="col-lg-4">
+				<div class="jumbotron jumbotron-fluid">
+				  <div class="wow flipInX container" data-wow-delay="2s">
+				    <h1 id="normal">Hello, world!</h1>
+				    <p class="lead">Это простой пример блока с компонентом в стиле jumbotron для привлечения дополнительного внимания к содержанию или информации.</p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div class="jumbotron jumbotron-fluid">
+				  <div class="wow flipInY container" data-wow-delay="3s">
+				    <h1 id="normal">Fluid jumbotron</h1>
+				    <p class="lead">Это модифицированный jumbotron, который занимает все горизонтальное пространство своего родителя.</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4">
+				<div class="jumbotron jumbotron-fluid">
+					<div class="wow flipInX container" data-wow-delay="4s">
+						<h1 id="normal">Hello, world!</h1>
+						<p class="lead">Это простой пример блока с компонентом в стиле jumbotron для привлечения дополнительного внимания к содержанию или информации.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+<!-- Скрипт запуска анимации при прокрутке -->
+<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+	$(window).scroll(function() {
+    $('.mov').each(function(){
+      var imagePos = $(this).offset().top;
+      var topOfWindow = $(window).scrollTop();
+      if (imagePos < topOfWindow+200) {
+        $(this).addClass('wobble');
+      }
+    });
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>
