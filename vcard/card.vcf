@@ -1,0 +1,49 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Качерьянц;Александр;;;
+FN:Александр Качерьянц
+ORG:
+ADR;TYPE=WORK:
+TITLE:
+TEL;TYPE=CELL:+79611794410
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:ihackfx@vk.com
+URL;TYPE=Digital Business Card:https://ihackfx.github.io/vcard/
+URL:https://ihackfx.github.io/
+URL;TYPE=Website:https://ihackfx.github.io/
+URL;TYPE=Telegram:https://t.me/ihackfx
+URL;TYPE=GitHub:https://github.com/ihackfx
+URL;TYPE=GitLab:https://gitlab.com/ihackfx
+URL;TYPE=VK:https://vk.com/ihackfx
+URL;TYPE=Twitter:https://twitter.com/ihackfx_
+URL;TYPE=TikTok:https://tiktok.com/ihackfx
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:Программист и простой человек в одном флаконе)
+UID:EnBizCard-100710057
+END:VCARD
+VERSION:3.0
+N:Качерьянц;Александр;;;
+FN:Александр Качерьянц
+ORG:ihackfx
+ADR;TYPE=WORK:
+TITLE:
+TEL;TYPE=CELL:+79611794410
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:ihackfx@vk.com
+URL;TYPE=Digital Business Card:
+URL:https://github.com/ihackfx
+URL;TYPE=Website:https://github.com/ihackfx
+URL;TYPE=Telegram:https://t.me/ihackfx
+URL;TYPE=GitHub:https://github.com/ihackfx
+URL;TYPE=GitLab:https://gitlab.com/ihackfx
+URL;TYPE=VK:https://vk.com/ihackfx
+URL;TYPE=Twitter:https://twitter.com/ihackfx_
+URL;TYPE=TikTok:https://tiktok.com/ihackfx
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:
+UID:EnBizCard-100659101
+END:VCARD
